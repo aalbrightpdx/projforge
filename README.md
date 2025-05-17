@@ -1,7 +1,7 @@
 <!-- # QuickRepo -->
 
 <p align="center">
-  <img src="assets/projforge.png" alt="quickrepo banner" width="40%">
+  <img src="assets/projforge.png" alt="projforge banner" width="40%">
 </p> 
 
 # ProjForge 🛠️
@@ -14,7 +14,7 @@ A Python-powered project generator for fast, flexible bootstrapping of CLI-based
 
 ---
 
-## 🧰 Clone the QuickRepo repository to your system:
+## 🧰 Clone the ProjForge repository to your system:
 
 Open your terminal and run:
 
