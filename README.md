@@ -1,11 +1,8 @@
-______          _______                   
-| ___ \        (_)  ___|                  
-| |_/ / __ ___  _| |_ ___  _ __ __ _  ___ 
-|  __/ '__/ _ \| |  _/ _ \| '__/ _` |/ _ \
-| |  | | | (_) | | || (_) | | | (_| |  __/
-\_|  |_|  \___/| \_| \___/|_|  \__, |\___|
-              _/ |              __/ |     
-             |__/              |___/ 
+<!-- # QuickRepo -->
+
+<p align="center">
+  <img src="assets/projforge.png" alt="quickrepo banner" width="40%">
+</p> 
 
 # ProjForge 🛠️
 
@@ -36,4 +33,50 @@ Run it directly:
 
 ```bash
 ./projforge.py
+```
 
+Or use flags:
+
+```bash
+./projforge.py --name myapp --venv --author "Jane Doe" --license MIT
+```
+
+Available flags:
+
+```bash
+--name <project_name>      Set project name (optional, will prompt if not provided)
+--venv                     Create a Python virtual environment
+--author <your_name>       Add author to setup.py
+--license <type>           Add license (MIT, Apache-2.0, GPL-3.0)
+--test                     Enable test mode (project will prompt for deletion after)
+--version                  Show script version
+--help                     Show this help message and exit
+```
+
+## ✅ Project Checklist
+
+Create and activate virtual environment
+
+Install requirements
+
+Run main.py to test
+
+    Initialize Git repository
+
+## 🧠 GPT Prompt File
+
+The gpt_prompts.txt file contains useful suggestions for AI-based analysis and assistance, including test generation, code summarization, and more.
+
+## 📦 Setup Example
+
+```bash
+./projforge.py --name mycliapp --venv --author "Your Name" --license MIT
+cd mycliapp
+source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+pip install -r requirements.txt
+python3 main.py
+```
+
+## 🪪 License
+
+MIT License. See LICENSE file for full terms.
