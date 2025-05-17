@@ -36,10 +36,16 @@ cd projforge
 
 ## 🛠 Install
 
+Dependencies
+
+```bash
+sudo apt install python3-colorama
+```
+
 In the project directory:
 
 ```bash
-pip install .
+pipx install .
 ```
 
 This creates a system-wide command:
@@ -91,7 +97,7 @@ Available flags:
 
 Uninstall
 ```bash
-pip uninstall projforge
+pipx uninstall projforge
 ```
 ---
 
