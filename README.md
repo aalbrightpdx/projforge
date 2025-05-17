@@ -14,6 +14,42 @@ A Python-powered project generator for fast, flexible bootstrapping of CLI-based
 
 ---
 
+## 🧰 Clone the QuickRepo repository to your system:
+
+Open your terminal and run:
+
+```bash
+git clone git@github.com:aalbrightpdx/projforge.git
+```
+
+Or, if you prefer HTTPS:
+
+```bash
+git clone https://github.com/aalbrightpdx/projforge.git
+```
+
+```bash
+cd projforge
+```
+
+---
+
+## 🛠 Install
+
+In the project directory:
+
+```bash
+pip install .
+```
+
+This creates a system-wide command:
+
+```bash
+projforge
+```
+
+---
+
 ## ✨ Features
 
 - Interactive and flag-based setup
@@ -32,13 +68,13 @@ A Python-powered project generator for fast, flexible bootstrapping of CLI-based
 Run it directly:
 
 ```bash
-./projforge.py
+projforge
 ```
 
 Or use flags:
 
 ```bash
-./projforge.py --name myapp --venv --author "Jane Doe" --license MIT
+projforge --name myapp --venv --author "Jane Doe" --license MIT
 ```
 
 Available flags:
@@ -53,15 +89,11 @@ Available flags:
 --help                     Show this help message and exit
 ```
 
-## ✅ Project Checklist
-
-Create and activate virtual environment
-
-Install requirements
-
-Run main.py to test
-
-    Initialize Git repository
+Uninstall
+```bash
+pip uninstall projforge
+```
+---
 
 ## 🧠 GPT Prompt File
 
@@ -72,7 +104,7 @@ The gpt_prompts.txt file contains useful suggestions for AI-based analysis and a
 ```bash
 ./projforge.py --name mycliapp --venv --author "Your Name" --license MIT
 cd mycliapp
-source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+source .venv/bin/activate 
 pip install -r requirements.txt
 python3 main.py
 ```
